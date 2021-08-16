@@ -16,19 +16,18 @@
  	jochum00/mia:1.0`
 
 
-##This command will run the docker container `jochum00/mia:1.0` on your local machine. where RStudio will be available on your web browser at http://localhost:8787.
+## This command will run the docker container `jochum00/mia:1.0` on your local machine. where RStudio will be available on your web browser at http://localhost:8787.
 
 
-# Bioconductor base containers fix the username to always being rstudio. and the password in the above command is given as bioc but it can be set to anything.
+### Bioconductor base containers fix the username to always being rstudio. and the password in the above command is given as bioc but it can be set to anything.
 
-# 8787 is the port being mapped between the docker container and your host machine. NOTE: password cannot be rstudio.
+### 8787 is the port being mapped between the docker container and your host machine. NOTE: password cannot be rstudio.
 
-#  The user is logged into the rstudio user by default.
+###  The user is logged into the rstudio user by default.
 
-# Additional information regarding the use of bioconductor docker container based rstudio images can be found [here](https://github.com/Bioconductor/bioconductor_docker)
+### Additional information regarding the use of bioconductor docker container based rstudio images can be found [here](https://github.com/Bioconductor/bioconductor_docker)
 
 
-## Here is a link to the
-## [Dockerhub](https://hub.docker.com/r/jochum00/mia)
+## Here is a link to the [Dockerhub](https://hub.docker.com/r/jochum00/mia)
 
 ## Alternatively you can build the container yourself using this [Dockerfile](https://github.com/microbiome/docker/blob/main/mia/Dockerfile)
