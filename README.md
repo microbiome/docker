@@ -1,20 +1,7 @@
-Readme file for docker container of mia github server
 
+#README
 
-
-This docker repo contains the docker container capable of running a Bioconductor base image of rstudio-server with mia and miaviz pre-installed.
-
-How to launch the interactive docker container
-docker run -it -v $PWD:$PWD jochum00/bowtie2_samtools_updated_versions bash
-
-Here is a link to the
-Dockerfile
-
-
-https://hub.docker.com/r/jochum00/mia
-
-
-# This repo contains a _spiffy_ new docker container capable of running a [Bioconductor](https://github.com/Bioconductor/bioconductor_docker) base image of rstudio-server with mia and miaviz pre-installed and tailored for microbiome analyses!
+#### This repo contains a _spiffy_ new docker container capable of running a [Bioconductor](https://github.com/Bioconductor/bioconductor_docker) base image of rstudio-server with mia and miaviz pre-installed and tailored for microbiome analyses!
 
 #### In addition to all the stuff that the good folks at [Bioconductor](https://github.com/Bioconductor/bioconductor_docker) preinstalled into rstudio base image, we have pre-installed the following packages: \
 `mia` \
@@ -44,4 +31,4 @@ https://hub.docker.com/r/jochum00/mia
 ## Here is a link to the
 ## [Dockerhub](https://hub.docker.com/r/jochum00/mia)
 
-## Alternatively you can build the container yourself using this [Dockerfile]()
+## Alternatively you can build the container yourself using this [Dockerfile](https://github.com/microbiome/docker/blob/main/mia/Dockerfile)
